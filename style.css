@@ -1,46 +1,33 @@
-body {
+@font-face {
+	font-family: HLA052;
+	src: url("resource/HLA052.ttf");
+}
+
+/* body {
+	color: white;
+	font-family: "Lucida Console", Monaco, "Courier New";
 	background-image: url("media/site/bground.png");
 	background-color: gray;
-}
-
-h1 {
-	color: white;
-	text-align: justify;
-	font-family: "Lucida Console", Monaco, "Courier New";
-}
-
-h2 {
-	color: white;
-	text-align: justify;
-	font-family: "Lucida Console", Monaco, "Courier New";
-}
-
-h3 {
-	color: white;
-	text-align: justify;
-	font-family: "Lucida Console", Monaco, "Courier New";
-}
-
-p {
-	color: white;
-	text-align: justify;
-	font-family: "Lucida Console", Monaco, "Courier New";
-}
-
-i {
-	color: white;
-	text-align: justify;
-	font-family: "Lucida Console", Monaco, "Courier New";
-}
-
-b {
-	color: white;
-	text-align: justify;
-	font-family: "Lucida Console", Monaco, "Courier New";
 }
 
 a {
 	color: cyan;
 	text-align: justify;
 	font-family: "Lucida Console", Monaco, "Courier New";
+}
+
+TO-DO: Figure out a way to make these fonts default fallbacks
+*/
+
+body {
+	color: white;
+	font-family: HLA052;
+	background-image: url("media/site/bground.png");
+	background-color: gray;
+}
+
+a {
+	color: cyan;
+	text-align: justify;
+	font-family: HLA052;
 }
